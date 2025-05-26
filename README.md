@@ -164,6 +164,67 @@ lsmod | grep nouveau
 If you get nothing, you're good. If not, you'll need to blacklist it — but honestly, that’s rarely needed anymore.
 
 ---
+## NVIDIA Prime Offload
+
+First Check your Bios. Make sure **secure boot is disabled** and **Switchable graphics** is turned on. After logging in, open your terminal and run  
+
+```
+ /sbin/lspci | grep -e VGA
+```
+
+and 
+
+```
+/sbin/lspci | grep -e 3D
+```
+
+If you found your NVIDIA card in the second command, then you are already on Hybrid Mode. 
+
+Run 
+
+```
+switcherooctl
+```
+
+It will give you an output like this 
+```
+Device: 0
+  Name:        Advanced Micro Devices, Inc. [AMD®/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]
+  Default:     yes
+  Environment: DRI_PRIME=pci-0000_05_00_0
+
+Device: 1
+  Name:        NVIDIA Corporation TU117M [GeForce GTX 1650 Mobile / Max-Q]
+  Default:     no
+  Environment: __GLX_VENDOR_LIBRARY_NAME=nvidia __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only
+
+```
+
+That `Default:  no` confirms you are using Hybrid mode.
+Now to run any software on NVIDIA just use the environment variable like this
+
+```
+env __GLX_VENDOR_LIBRARY_NAME=nvidia __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only <yoursoftware>
+``` 
+
+For Flatpaks, Install Flatseal and look for the software that you want to run on NVIDIA.
+
+I will take Obsidian for example.
+
+```
+1. Open Flatseal
+2. Click on Obsidian
+3. Under Device, make sure GPU acceleration is turned on.
+4. Now scroll down and go to Environment section.
+5. Add the Environment variables you found using switcherooctl by clicking the + icon. 
+6. Each Environment variable requires its own line, for example I have 3 so, I will click on + then paste __GLX_VENDOR_LIBRARY_NAME=nvidia
+7. Again click on + and paste __NV_PRIME_RENDER_OFFLOAD=1
+8. And finally add the last varibale i.e __VK_LAYER_NV_optimus=NVIDIA_only
+```
+
+Now Obsidian will run on NVIDIA. To verify install `Nvidia System Monitor Qt` and check.
+
+---
 
 ## Multimedia Codecs
 
