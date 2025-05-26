@@ -9,4 +9,3 @@ months=(
 for month in "${months[@]}"; do
     mkdir -p "$month"
 done
-
