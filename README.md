@@ -1,8 +1,8 @@
 
-![[lockscreen.png]]
- ![[dualM.png]]
-![[gdm_user.jpeg]]
-![gdm_login.jpeg](attachment/gdm_login.jpg)
+![lockscreen.png](attachment/lockscreen.png)
+ ![dualM.png](attachment/dualM.png)
+![gdm_user.jpeg](attachment/gdm_user.jpeg)
+![gdm_login.jpeg](attachment/gdm_login.jepg)
 
 ![Fastfetch](attachment/fastfetch.png)
 ---
