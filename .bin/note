@@ -1,0 +1,12 @@
+#!/bin/bash
+# comment - ephemeral text mode in terminal
+echo "🗒️  COMMENT MODE - Type your comment below."
+echo "Type 'END' on a new line to finish."
+echo "---------------------------------------------"
+
+comment=""
+while IFS= read -r line; do
+    [[ "$line" == "END" ]] && break
+    comment+="$line"$'\n'
+done < /dev/tty
+

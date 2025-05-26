@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Check current PowerSaveMode status
+status=$(busctl --user get-property org.gnome.Mutter.DisplayConfig \
+  /org/gnome/Mutter/DisplayConfig \
+  org.gnome.Mutter.DisplayConfig PowerSaveMode | awk '{print $2}')
+
+# Toggle display power state
+if [ "$status" -eq 0 ]; then
+  # Turn off screen
+  busctl --user set-property org.gnome.Mutter.DisplayConfig \
+    /org/gnome/Mutter/DisplayConfig \
+    org.gnome.Mutter.DisplayConfig PowerSaveMode i 1
+else
+  # Turn on screen
+  busctl --user set-property org.gnome.Mutter.DisplayConfig \
+    /org/gnome/Mutter/DisplayConfig \
+    org.gnome.Mutter.DisplayConfig PowerSaveMode i 0
+fi
+
