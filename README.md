@@ -6,7 +6,7 @@
 
 ![Fastfetch](attachment/fastfetch.png)
 ---
-They’ve got a new installer with Fedora 48 — and I’ve got to say, **this is hands down the best minimal OS installer I’ve seen so far**. I mean, it feels like you’re installing an OS the way you install apps on Windows — just clicking “Yes” all the way through. It’s _that_ smooth.
+They’ve got a new installer with Fedora 42 — and I’ve got to say, **this is hands down the best minimal OS installer I’ve seen so far**. I mean, it feels like you’re installing an OS the way you install apps on Windows — just clicking “Yes” all the way through. It’s _that_ smooth.
 
 So I hope you won't have any problem with installing fedora. 
 ## 🛠️ Post-Install Tweaks (Step-by-Step)
