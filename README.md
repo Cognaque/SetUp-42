@@ -222,7 +222,7 @@ I will take Obsidian for example.
 8. And finally add the last varibale i.e __VK_LAYER_NV_optimus=NVIDIA_only
 ```
 
-Now Obsidian will run on NVIDIA. To verify install `Nvidia System Monitor Qt` and check.
+Now Obsidian will run on NVIDIA. To verify run `nvidia-smi` or install `Nvidia System Monitor Qt` to check.
 
 ---
 
