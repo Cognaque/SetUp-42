@@ -2,7 +2,7 @@
 ![lockscreen.png](attachment/lockscreen.png)
  ![dualM.png](attachment/dualM.png)
 ![gdm_user.jpeg](attachment/gdm_user.jpeg)
-![gdm_login.jpeg](attachment/gdm_login.jepg)
+![gdm_login.jpeg](attachment/gdm_login.jpeg)
 
 ![Fastfetch](attachment/fastfetch.png)
 ---
