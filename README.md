@@ -1,6 +1,7 @@
 
 ![lockscreen.png](attachment/lockscreen.png)
  ![dualM.png](attachment/dualM.png)
+ ![dualM2](attachment/dualM2.png)
 ![gdm_user.jpeg](attachment/gdm_user.jpeg)
 ![gdm_login.jpeg](attachment/gdm_login.jpeg)
 
