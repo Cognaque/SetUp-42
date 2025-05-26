@@ -139,7 +139,7 @@ First, check if the drivers are properly loaded:
 modinfo -F version nvidia
 ```
 
-If it returns nothing, **give it a couple of minutes** (max 5). Then try again:
+If it doesn't returns the NVIDIA driver version, **give it a couple of minutes** (max 5). Then try again:
 
 ```
 modinfo -F version nvidia
