@@ -253,7 +253,7 @@ cp /usr/share/applications/org.gnome.Software.desktop ~/.config/autostart/
 
 ### The good old `xset dpms force off`?
 
-No it does not work on Wayland and for obvious reasons. I have given the script. Just bind it to a keyboard shortcut.
+No it does not work on Wayland and for obvious reasons. I have given the script in `/.bin/screen`  . Just bind it to a keyboard shortcut.
 
 Fedora’s default GNOME power profiles are decent, but I prefer something more custom. I highly recommend [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq).  
 I’ve included a config file — tweak it however you like.
@@ -297,7 +297,7 @@ GDM Settings
     
 - [Starship](https://starship.rs/) — because terminals should look good too
 
- 📌 ==Put your custom scrips or programs like speedtest and yt-dlp in your ~/.bin folder, that way you can use them anywhere. The .bashrc took care of this.==
+ 📌 Put your custom scrips or programs like speedtest and yt-dlp in your ~/.bin folder, that way you can use them anywhere. The `.bashrc` took care of this.
 
 ## GNOME Extensions (Highly Recommended)
 
@@ -383,7 +383,7 @@ Also check out [Paul Sørensen’s blog](https://paulsorensen.io/fedora-kde-plas
 
 - [Adnan Hodzic](https://github.com/AdnanHodzic) for [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) — a life-saver on laptops
     
-- [Paul Sørensen](https://paulsorensen.io/fedora-kde-plasma-post-installation-guide/) for the post-install guide and insights
+- [Paul Sørensen](https://paulsorensen.io/who/) for the post-install guide and insights
     
 
 ---
