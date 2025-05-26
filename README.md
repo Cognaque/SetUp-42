@@ -13,7 +13,7 @@ So I hope you won't have any problem with installing fedora.
 
 ### ⧩ Note
 
-==**If your laptop can update firmware without Windows, definitely look into it.**==  
+**If your laptop can update firmware without Windows, definitely look into it.**
 It’s one of those small things that makes your life easier in the long run.
 
 ---
