@@ -1,4 +1,3 @@
-
 ![lockscreen.png](attachment/lockscreen.png)
  ![dualM.png](attachment/dualM.png)
  ![dualM2](attachment/dualM2.png)
@@ -10,7 +9,12 @@
   <img src="attachment/vitals.png" alt="Vitals">
 </p>
 
+
+## Watch the Setup in Action on Youtube 
+[![Watch the video](https://img.youtube.com/vi/wTj45232NoY/maxresdefault.jpg)](https://youtu.be/wTj45232NoY?si=SS9glJRq8sN5I_6k)
+
 ---
+
 They’ve got a new installer with Fedora 42 — and I’ve got to say, **this is hands down the best minimal OS installer I’ve seen so far**. I mean, it feels like you’re installing an OS the way you install apps on Windows — just clicking “Yes” all the way through. It’s _that_ smooth.
 
 So I hope you won't have any problem with installing fedora. 
