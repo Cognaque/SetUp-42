@@ -330,6 +330,13 @@ I’ve included a config file — tweak it however you like.
 
 ---
 
+### ⧩ Note
+
+The default **Power Profile Manager** has some issues that leads to **Washed out colors + Blurriness** and make it quite difficult to read text. 
+[auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) fixes this.
+
+---
+
 ## Additional Software Recommendations
 
 ```
