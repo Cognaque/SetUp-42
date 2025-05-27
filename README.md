@@ -328,8 +328,6 @@ No it does not work on Wayland and for obvious reasons. I have given the script 
 Fedora’s default GNOME power profiles are decent, but I prefer something more custom. I highly recommend [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq).  
 I’ve included a config file — tweak it however you like.
 
----
-
 ### ⧩ Note
 
 The default **Power Profile Manager** has some issues that leads to **Washed out colors + Blurriness** and make it quite difficult to read text. 
