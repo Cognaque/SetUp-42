@@ -25,6 +25,24 @@ So I hope you won't have any problem with installing fedora.
 **If your laptop can update firmware without Windows, definitely look into it.**
 It’s one of those small things that makes your life easier in the long run.
 
+> **Here is how to update firmware**
+
+### ⧩ Note
+
+**Before updating to new firmware**, check the discussion forums or blogs related to your specific laptop model.
+If other users report that the **firmware update works without issues**, it’s generally safe to proceed.
+**BIOS updates are especially critical**, so exercise extra caution.
+**Make sure to research thoroughly online before installing any firmware updates.**
+
+```
+sudo dnf install fwupd
+sudo fwupdmgr refresh
+fwupdmgr get-devices
+fwupdmgr get-updates
+sudo fwupdmgr update
+```
+**Be very careful with the last command. Use the other commands to get your firmware and update details, always crosscheck them on your vendor’s official driver site, and also check forums to see if the updates are causing any issues.**
+
 ---
 
 ## Network Configuration
